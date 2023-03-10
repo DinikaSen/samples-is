@@ -20,6 +20,7 @@ import { SettingsTitleComponent } from "@b2bsample/shared/ui/ui-components";
 import { Container } from "rsuite";
 import "rsuite/dist/rsuite.min.css";
 import ReportsComponent from "./otherComponents/reportsComponent";
+//import ReportsComponent from "./otherComponents/latestNewsComponent";
 
 /**
  * 
@@ -32,8 +33,8 @@ export default function ReportsSectionComponent() {
     return (
         <Container>
             <SettingsTitleComponent
-                title="Reports"
-                subtitle="View reports of your previous activities" />
+                title="Usage"
+                subtitle="View reports of your storage usage" />
             <br />
 
             <ReportsComponent />

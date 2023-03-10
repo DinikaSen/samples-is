@@ -1,7 +1,7 @@
 {
     "items": [
         {
-            "title": "Get Started",
+            "title": "Overall Usage",
             "eventKey": "1",
             "icon": "SettingHorizontalIcon",
             "type": "menu"

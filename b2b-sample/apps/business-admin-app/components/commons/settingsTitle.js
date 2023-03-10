@@ -17,24 +17,21 @@
  */
 
 import React from "react";
-import styles from "./moveOrganizationComponent.module.css";
+import { Stack } from "rsuite";
 
-/* eslint-disable-next-line */
-export interface MoveOrganizationComponentProps {
-    orgName: string
-}
-
-export function MoveOrganizationComponent(prop: MoveOrganizationComponentProps) {
-
-    const { orgName } = prop;
+/**
+ * 
+ * @param prop - title, subtitle
+ * @returns A component for the title in an interface of the admin settings section
+ */
+export default function SettingsTitle(prop) {
+    
+    const { title, subtitle } = prop;
 
     return (
-        <div className={ styles["moveOrgDiv"] }>
-            <p className={ styles["pFont"] }>
-                You will be redirected to your organization
-            </p>
-        </div>
+        <Stack direction="column" alignItems="flex-start">
+            <h2>{ title }</h2>
+            <p>{ subtitle }</p>
+        </Stack>
     );
 }
-
-export default MoveOrganizationComponent;

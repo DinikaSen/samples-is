@@ -49,6 +49,8 @@
     "rsuite": "^5.22.2",
     "ts-jest": "28.0.5",
     "ts-node": "10.9.1",
+    "react-chartjs-2": "^4.3.1",
+    "chart.js": "^3.9.1",
     "url-loader": "^4.1.1"
   },
   "dependencies": {
@@ -65,6 +67,8 @@
     "react-final-form": "^6.5.9",
     "regenerator-runtime": "0.13.7",
     "rsuite": "^5.22.2",
-    "tslib": "^2.3.0"
+    "tslib": "^2.3.0",
+    "react-chartjs-2": "^4.3.1",
+    "chart.js": "^3.9.1"
   }
 }

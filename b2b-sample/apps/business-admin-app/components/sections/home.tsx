@@ -23,6 +23,7 @@ import { Session } from "next-auth";
 import React, { useState } from "react";
 import "rsuite/dist/rsuite.min.css";
 import GetStartedSectionComponent from "./sections/getStartedSection/getStartedSectionComponent";
+import ClientsDetailsComponent from "./sections/settingsSection/overallUsage/clientsDetailsComponent";
 import IdpSectionComponent from "./sections/settingsSection/idpSection/idpSectionComponent";
 import ManageUserSectionComponent from "./sections/settingsSection/manageUserSection/manageUserSectionComponent";
 import RoleManagementSectionComponent from
@@ -52,7 +53,7 @@ export default function Home(props: HomeProps) : JSX.Element {
         switch (activeKey) {
             case "1":
 
-                return <GetStartedSectionComponent />;
+                return <ClientsDetailsComponent />;
             case "2-1":
 
                 return <ManageUserSectionComponent session={ session } />;

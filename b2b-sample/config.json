@@ -1,21 +1,21 @@
 {
     "CommonConfig": {
         "AuthorizationConfig": {
-            "BaseOrganizationUrl": "<PARENT ORGANIZATION URL> ex: https://api.asgardeo.io/t/guardio"
+            "BaseOrganizationUrl": "asgardio-org-url"
         },
         "ApplicationConfig": {
             "SampleOrganization": [
                 {
-                    "id": "<SUB ORGANIZATION ID>",
-                    "name": "<SUB ORGANIZATION NAME>"
+                    "id": "sub-org-name",
+                    "name": "sub-org-id"
                 }
             ]
         }
     },
     "BusinessAppConfig": {
         "AuthorizationConfig": {
-            "ClientId": "<CLIENT ID OF THE BUSINESS APP>",
-            "ClientSecret": "<CLIENT SECRET OF THE BUSINESS APP>"
+            "ClientId": "ClientId",
+            "ClientSecret": "ClientSecret"
         },
         "ApplicationConfig": {
             "HostedUrl": "http://localhost:3000",
@@ -26,19 +26,19 @@
                 "internal_login"
             ],
             "Branding": {
-                "name": "Guardio Insurance",
+                "name": "Kfone",
                 "tag": "Anytime . Anywhere"
             }
         },
         "ManagementAPIConfig": {
-            "SharedApplicationName": "<SHARED APPLICATION NAME FOR BUSINESS APP> ex: guardio-app",
+            "SharedApplicationName": "Kfone Enterprise",
             "UserStore" : "DEFAULT"
         }
     },
     "BusinessAdminAppConfig": {
         "AuthorizationConfig": {
-            "ClientId": "<CLIENT ID OF THE BUSINESS ADMIN APP>",
-            "ClientSecret": "<CLIENT SECRET OF THE BUSINESS ADMIN APP>"
+            "ClientId": "ClientId",
+            "ClientSecret": "ClientSecret"
         },
         "ApplicationConfig": {
             "HostedUrl": "http://localhost:3001",
@@ -66,7 +66,7 @@
                 "internal_group_mgt_update"
             ],
             "Branding": {
-                "name": "Guardio Insurance - Administrator Application",
+                "name": "Kfone - Administrator Application",
                 "tag": "Administrator Application"
             }
         }
